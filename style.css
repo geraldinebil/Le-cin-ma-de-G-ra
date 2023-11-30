@@ -38,6 +38,42 @@ h2 {
   margin: 40px;
 }
 
+/* HEADER */
+header {
+  background: url(images/15882.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 200px;
+}
+
+header h1 {
+  float: left;
+  margin-top: 130px;
+
+}
+
+header nav {
+  float: right;
+  margin-top: 50px;
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+}
+
+a:hover {
+  color: #ff0000;
+  font-weight: bold;
+  opacity: 0.80;
+}
+
+header nav ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
 
 /* CAROUSEL */
 html,
@@ -109,41 +145,6 @@ img:nth-child(5) {
   animation-delay: 8s;
 }
 
-/* HEADER */
-header {
-  background: url(images/15882.jpg);
-  background-size: cover;
-  background-position: bottom;
-  height: 200px;
-}
-
-header h1 {
-  float: left;
-  margin-top: 130px;
-
-}
-
-header nav {
-  float: right;
-  margin-top: 50px;
-}
-
-header nav ul li {
-  display: inline-block;
-  float: left;
-}
-
-a:hover {
-  color: #ff0000;
-  font-weight: bold;
-  opacity: 0.80;
-}
-
-header nav ul li a {
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-right: 10px;
-}
 
 /* SECTION AFFICHE */
 #affiche {
