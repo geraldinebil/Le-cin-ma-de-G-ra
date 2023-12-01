@@ -130,7 +130,8 @@ margin: 200px 10px 10px -280px ;
   background-size: cover;
   opacity: 0.30;
   z-index: -1;
-  margin: 150px;
+  margin: 0px;
+  top: 150px;
 }
 
 
